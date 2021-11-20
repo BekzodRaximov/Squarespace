@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hero {
+  background: url("/img/Rectangle.svg") no-repeat center /cover;
+  height: 100vh;
+}
+
+.header {
+  background-color: #000;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin: 40px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.log-list {
+  display: flex;
+}
+
+.log-link {
+  color: #fff;
+  padding: 20px 30px;
+}
+
+.log-get-link {
+  background-color: #fff;
+  color: #000;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/* hero description */
+.hero-desc {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 40px;
+}
+
+.hero-desc-subtitle {
+  margin-top: 173px;
+  display: flex;
+  color: #efefef;
+}
+
+.hero-desc-subtitle h3 {
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.hero-desc-title {
+  margin-top: 12px;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.hero-desc p {
+  margin-top: 22px;
+  font-size: 22px;
+}
+
+
+.hero-desc-btn {
+  text-transform: uppercase;
+  margin-top: 46px;
+  width: 153px;
+  display: inline;
+  padding: 20px 30px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+/* Feature section */
+
+#feature {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+.feature-logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.feature-logo-img {
+  cursor: pointer;
+}
+
+.feature-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.feature-title-big {
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.feature-title-desc {
+  width: 600px;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 77px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-card {
+  margin-right: 40px;
+}
+
+.feature-img {
+  margin-bottom: 40px;
+  width: 427px;
+  height: 268px;
+}
+
+.feature-card-title {
+  font-weight: 400;
+  margin-bottom: 6px;
+  font-size: 28px;
+}
+
+.feature-card-desc {
+  padding-bottom: 70px;
+  font-size: 18px;
+}
+
+/* Article */
+#article {
+  background: url("/img/piano.svg") no-repeat center/ cover;
+  height: 480px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-title {
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.article-desc {
+  font-size: 22px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.article-link {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+/* CTA section */
+#cta {
+  background-color: #60777C;
+  color: #fff;
+}
+
+.cta-title-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.cta-title {
+  width: 620px;
+  text-align: center;
+}
+
+.cta-subtitle {
+  margin-top: 80px;
+  margin-bottom: 22px;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.cta-desc {
+  font-size: 22px;
+}
+
+.cta-card {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.cta-card-img {
+  margin: 40px;
+}
+
+.cta-card-img img {
+  width: 660px;
+  height: 413px;
+}
+
+.cta-card-title {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-card-subtitle, .cta-card-desc {
+  width: 520px;
+}
+
+.cta-card-subtitle {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.cta-card-desc {
+  font-size: 22px;
+}
+
+.cta-last-card-title {
+  width: 620px;
+}
+
+.cta-last-card-desc {
+  margin-top: 40px;
+  font-size: 28px;
+  margin-bottom: 190px;
+  margin-left: 40px;
+}
+
+.last-card-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+}
+
+.last-card-desc {
+  font-size: 18px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.cta-last-card-title span {
+  margin-left: 40px;
+  font-size: 18px;
+  opacity: .3;
+}
